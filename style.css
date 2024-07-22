@@ -6,3 +6,43 @@ img {
     width: 350px;
     height: 200px;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.introduction {
+    display: flex;
+    justify-content: space-around
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+.lead {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 0px;
+}
+
+.samples  {
+    display: flex;
+    justify-content: center;   
+}
+.images {
+    text-align: center;
+}
