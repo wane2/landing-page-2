@@ -5,6 +5,7 @@
 img {
     width: 350px;
     height: 200px;
+    border-radius: 6px;
 }
 body {
     display: flex;
@@ -20,29 +21,72 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    padding: 8px;
+    font-size: 24px;
 }
 .introduction {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 8px;
+    color: white;
 }
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px 110px 50px 110px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
 }
 .lead {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin-top: 35px;
+    padding: 25px;
+    color: white;
+
 }
 .footer {
     text-align: center;
     border: 1px solid black;
-    margin-bottom: 0px;
+    margin-top: 50px;
+    background-color: #1f2937;
+    color: white;
 }
 
 .samples  {
     display: flex;
-    justify-content: center;   
+    justify-content: center; 
+    font-size: larger;
+    font-weight: 800;  
 }
 .images {
     text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.welcome {
+    font-size: 48px;
+}
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 12px 5px 12px;
+    border: 1px solid white;
+}
+img:hover {
+    transform: scale(1.15);
+}
+button:hover {
+    background-color: aqua;
 }
